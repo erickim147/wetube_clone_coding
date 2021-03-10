@@ -120,3 +120,4 @@ dist
 package-lock.json
 data/db
 uploads
+static
