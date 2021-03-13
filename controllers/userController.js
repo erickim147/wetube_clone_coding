@@ -115,7 +115,6 @@ export const postEditProfile = async (req, res) => {
       email,
       avatarUrl: file ? file.path : req.user.avatarUrl,
     });
-    console.log(req.user);
     res.redirect(routes.me);
   } catch (error) {
     res.redirect(routes.editProfile);
